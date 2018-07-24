@@ -1,0 +1,31 @@
+{
+  "pages":[
+    "pages/lists/lists",
+    "pages/detail/detail",
+    "pages/aboutme/aboutme",
+    "pages/index/index",
+    "pages/logs/logs"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#000",
+    "navigationBarTitleText": "WeiCHS",
+    "navigationBarTextStyle":"white"
+  },
+    "tabBar": {
+      "list": [
+        {
+          "pagePath": "pages/lists/lists",
+          "text": "首页",
+          "iconPath":"image/2.png",
+          "selectedIconPath": "image/3.png"
+        },
+        {
+          "pagePath": "pages/detail/detail",
+          "text": "关于我们",
+          "iconPath": "image/4.png",
+          "selectedIconPath": "image/1.png"
+        }
+      ]
+    }
+}
